@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background - NOIRVAEL lifestyle photo */}
       <div className="absolute inset-0 z-0">
-        <img src="/NOIRVAEL/NOIRVAEL13.jpeg" alt="NOIRVAEL Hero" className="w-full h-full object-cover" />
+        <img src="/NOIRVAEL/NOIRVAEL25.jpeg" alt="NOIRVAEL Hero" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/70 to-black/40" />
       </div>
 
