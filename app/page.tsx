@@ -8,7 +8,6 @@ import { Contact } from "@/components/contact"
 import { FitnessTest } from "@/components/fitness-test"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
-import { NoirvaelBanner } from "@/components/noirvael-banner"
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Services />
-      <NoirvaelBanner />
       <About />
       <Clothing />
       <Supplements />
