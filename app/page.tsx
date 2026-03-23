@@ -9,6 +9,7 @@ import { Contact } from "@/components/contact"
 import { FitnessTest } from "@/components/fitness-test"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
+import { BrandBanner } from "@/components/brand-banner"
 
 export default function Home() {
   return (
@@ -16,12 +17,17 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Services />
+      <BrandBanner image="/NOIRVAEL/NOIRVAEL14.jpeg" align="left" text="NOIRVAEL" subtitle="Rendimiento sin compromisos" />
       <About />
+      <BrandBanner image="/NOIRVAEL/NOIRVAEL15.jpeg" align="right" text="COLECCIÓN" subtitle="Ropa deportiva premium" />
       <Clothing />
+      <BrandBanner image="/NOIRVAEL/NOIRVAEL16.jpeg" align="center" text="LIFESTYLE" subtitle="Más que una marca, un estilo de vida" />
       <BrandGallery />
       <Supplements />
+      <BrandBanner image="/NOIRVAEL/NOIRVAEL17.jpeg" align="left" text="RESULTADOS" subtitle="Historias reales de transformación" />
       <Testimonials />
       <Contact />
+      <BrandBanner image="/NOIRVAEL/NOIRVAEL18.jpeg" align="center" text="TU MEJOR VERSIÓN" subtitle="Comienza hoy con NOIRVAEL" />
       <FitnessTest />
       <Footer />
     </main>

@@ -11,8 +11,8 @@ export function About() {
           {/* Image */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/NOIRVAEL/NOIRVAEL11.png" alt="NOIRVAEL Coach" className="w-full h-[600px] object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <img src="/professional-fitness-coach.png" alt="NOIRVAEL Coach" className="w-full h-[600px] object-cover" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6">
                 <span className="text-white/90 text-sm font-semibold tracking-[0.3em] uppercase">NOIRVAEL</span>
               </div>
@@ -22,11 +22,6 @@ export function About() {
             <div className="absolute -bottom-8 -right-8 bg-card p-6 rounded-2xl shadow-xl border border-primary/20 animate-float">
               <div className="text-4xl font-bold text-primary mb-1">15k+</div>
               <div className="text-sm text-muted-foreground">Horas de Entrenamiento</div>
-            </div>
-
-            {/* Brand decoration */}
-            <div className="absolute -top-4 -left-4 w-24 h-24 rounded-xl overflow-hidden shadow-lg border-2 border-primary/30">
-              <img src="/NOIRVAEL/NOIRVAEL12.png" alt="NOIRVAEL" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -42,17 +37,16 @@ export function About() {
 
             <div className="grid sm:grid-cols-2 gap-6 mb-8">
               <div className="flex gap-4">
-                <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center shrink-0">
                   <Award className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Certificado Internacional</h4>
-                  <p className="text-sm text-muted-foreground">ISSA & ACE Certified</p>
+                  <p className="text-sm text-muted-foreground">ISSA &amp; ACE Certified</p>
                 </div>
               </div>
-
               <div className="flex gap-4">
-                <div className="bg-accent/10 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="bg-accent/10 w-12 h-12 rounded-xl flex items-center justify-center shrink-0">
                   <Target className="w-6 h-6 text-accent" />
                 </div>
                 <div>
@@ -60,9 +54,8 @@ export function About() {
                   <p className="text-sm text-muted-foreground">Cada cliente es único</p>
                 </div>
               </div>
-
               <div className="flex gap-4">
-                <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center shrink-0">
                   <Heart className="w-6 h-6 text-primary" />
                 </div>
                 <div>
@@ -70,9 +63,8 @@ export function About() {
                   <p className="text-sm text-muted-foreground">Tu éxito es nuestro éxito</p>
                 </div>
               </div>
-
               <div className="flex gap-4">
-                <div className="bg-accent/10 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="bg-accent/10 w-12 h-12 rounded-xl flex items-center justify-center shrink-0">
                   <TrendingUp className="w-6 h-6 text-accent" />
                 </div>
                 <div>

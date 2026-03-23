@@ -13,39 +13,28 @@ const products = [
   { name: "NOIRVAEL Compression Set", category: "Sets", price: "79.99", image: "/NOIRVAEL/NOIRVAEL6.png" },
   { name: "NOIRVAEL Dry-Fit Polo", category: "Polos", price: "49.99", image: "/NOIRVAEL/NOIRVAEL7.png" },
   { name: "NOIRVAEL Windbreaker", category: "Chaquetas", price: "89.99", image: "/NOIRVAEL/NOIRVAEL8.png" },
+  { name: "NOIRVAEL Pro Leggings", category: "Leggings", price: "54.99", image: "/NOIRVAEL/NOIRVAEL9.png" },
+  { name: "NOIRVAEL Muscle Fit Tee", category: "Camisetas", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
+  { name: "NOIRVAEL Track Jacket", category: "Chaquetas", price: "74.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
+  { name: "NOIRVAEL Oversized Hoodie", category: "Hoodies", price: "72.99", image: "/NOIRVAEL/NOIRVAEL12.png" },
 ]
 
 export function Clothing() {
   return (
-    <section id="ropa" className="py-24 bg-secondary text-secondary-foreground">
+    <section id="ropa" className="py-24">
       <div className="container mx-auto px-4">
-        {/* Brand showcase banner */}
-        <div className="relative rounded-2xl overflow-hidden mb-16 h-72">
-          <img
-            src="/NOIRVAEL/NOIRVAEL9.png"
-            alt="NOIRVAEL Brand"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent flex items-center">
-            <div className="px-8 md:px-16">
-              <h2 className="text-4xl md:text-6xl font-bold text-white tracking-widest mb-3">NOIRVAEL</h2>
-              <p className="text-lg text-white/80 max-w-md">Ropa deportiva premium diseñada para quienes buscan rendimiento y estilo sin compromisos.</p>
-            </div>
-          </div>
-        </div>
-
         <div className="text-center mb-16">
           <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">Colección</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">Ropa Deportiva NOIRVAEL</h2>
-          <p className="text-xl text-secondary-foreground/80 max-w-2xl mx-auto text-pretty">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
             Prendas diseñadas para el máximo rendimiento con la elegancia que define nuestra marca
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {products.map((product, index) => (
             <Card key={index} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden border-0">
-              <div className="relative overflow-hidden bg-muted aspect-[3/4]">
+              <div className="relative overflow-hidden bg-muted aspect-3/4">
                 <img
                   src={product.image}
                   alt={product.name}

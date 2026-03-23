@@ -6,10 +6,10 @@ import { ArrowRight, Play } from "lucide-react"
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Image - NOIRVAEL brand image */}
+      {/* Background - NOIRVAEL lifestyle photo */}
       <div className="absolute inset-0 z-0">
-        <img src="/NOIRVAEL/NOIRVAEL10.png" alt="NOIRVAEL Hero" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
+        <img src="/NOIRVAEL/NOIRVAEL13.jpeg" alt="NOIRVAEL Hero" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/70 to-black/40" />
       </div>
 
       {/* Content */}
@@ -17,7 +17,7 @@ export function Hero() {
         <div className="max-w-3xl">
           <div className="inline-block mb-6 animate-in fade-in slide-in-from-bottom duration-700">
             <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold border border-primary/30 tracking-widest uppercase">
-              Premium Fitness & Lifestyle
+              Premium Fitness &amp; Lifestyle
             </span>
           </div>
 
@@ -34,17 +34,12 @@ export function Hero() {
               Explorar Colección
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-6 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
-            >
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
               <Play className="mr-2 w-5 h-5" />
               Ver Video
             </Button>
           </div>
 
-          {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-16 animate-in fade-in slide-in-from-bottom duration-700 delay-500">
             <div>
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
@@ -62,7 +57,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-3 bg-white/50 rounded-full" />
