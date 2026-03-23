@@ -25,25 +25,28 @@ export function Navigation() {
     { href: "#contacto", label: t("nav.contact") },
   ]
 
+  const linkColor = isScrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"
+  const logoColor = isScrolled ? "text-foreground" : "text-white"
+
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center gap-2 group">
-            <span className="text-2xl font-bold tracking-[0.15em] text-foreground">
+            <span className={`text-2xl font-bold tracking-[0.15em] ${logoColor} transition-colors`}>
               NOIR<span className="text-primary">VAEL</span>
             </span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href} className="text-foreground hover:text-primary transition-colors font-medium text-sm uppercase tracking-wider">
+              <a key={link.href} href={link.href} className={`${linkColor} transition-colors font-medium text-sm uppercase tracking-wider`}>
                 {link.label}
               </a>
             ))}
             <button
               onClick={() => setLocale(locale === "en" ? "es" : "en")}
-              className="flex items-center gap-1.5 text-foreground hover:text-primary transition-colors text-sm font-medium uppercase tracking-wider"
+              className={`flex items-center gap-1.5 ${linkColor} transition-colors text-sm font-medium uppercase tracking-wider`}
               aria-label="Toggle language"
             >
               <Globe className="w-4 h-4" />
@@ -54,7 +57,7 @@ export function Navigation() {
             </Button>
           </div>
 
-          <button className="md:hidden text-foreground" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <button className={`md:hidden ${logoColor} transition-colors`} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
