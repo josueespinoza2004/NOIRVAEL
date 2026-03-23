@@ -21,8 +21,8 @@ export function BrandBanner({ image, align = "center", text, subtitle }: BrandBa
   }
 
   return (
-    <div className="relative w-full h-48 md:h-64 overflow-hidden">
-      <img src={image} alt="NOIRVAEL" className="w-full h-full object-cover" />
+    <div className="relative w-full h-64 md:h-80 lg:h-96 overflow-hidden">
+      <img src={image} alt="NOIRVAEL" className="w-full h-full object-cover object-center" />
       <div className={`absolute inset-0 flex ${overlayAlign[align]}`}>
         <div className={`${textAlign[align]}`}>
           {text && (
