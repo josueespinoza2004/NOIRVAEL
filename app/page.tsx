@@ -20,7 +20,6 @@ export default function Home() {
       <About />
       <Clothing />
       <Supplements />
-      <BrandBanner image="/NOIRVAEL/NOIRVAEL17.jpeg" align="left" text="RESULTADOS" subtitle="Historias reales de transformación" />
       <Testimonials />
       <Contact />
       <BrandBanner image="/NOIRVAEL/NOIRVAEL18.jpeg" align="center" text="TU MEJOR VERSIÓN" subtitle="Comienza hoy con NOIRVAEL" />

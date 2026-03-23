@@ -11,6 +11,7 @@ const products = [
   { name: "NOIRVAEL Pro Leggings", category: "Leggings", price: "54.99", image: "/NOIRVAEL/NOIRVAEL9.png" },
   { name: "NOIRVAEL Muscle Fit Tee", category: "Camisetas", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
   { name: "NOIRVAEL Track Jacket", category: "Chaquetas", price: "74.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
+  { name: "NOIRVAEL Athletic Wear", category: "Conjuntos", price: "64.99", image: "/NOIRVAEL/NOIRVAEL17.jpeg" },
 ]
 
 export function Clothing() {
