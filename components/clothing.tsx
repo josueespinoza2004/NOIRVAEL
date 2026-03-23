@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button"
 import { ShoppingCart } from "lucide-react"
 
 const products = [
-  { name: "NOIRVAEL Sport Hoodie", category: "Hoodies", price: "69.99", image: "/NOIRVAEL/NOIRVAEL5.png" },
-  { name: "NOIRVAEL Dry-Fit Polo", category: "Polos", price: "49.99", image: "/NOIRVAEL/NOIRVAEL7.png" },
-  { name: "NOIRVAEL Windbreaker", category: "Chaquetas", price: "89.99", image: "/NOIRVAEL/NOIRVAEL8.png" },
-  { name: "NOIRVAEL Pro Leggings", category: "Leggings", price: "54.99", image: "/NOIRVAEL/NOIRVAEL9.png" },
-  { name: "NOIRVAEL Muscle Fit Tee", category: "Camisetas", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
-  { name: "NOIRVAEL Track Jacket", category: "Chaquetas", price: "74.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
-  { name: "NOIRVAEL Athletic Wear", category: "Conjuntos", price: "64.99", image: "/NOIRVAEL/NOIRVAEL17.jpeg" },
-  { name: "NOIRVAEL Performance Fit", category: "Camisetas", price: "44.99", image: "/NOIRVAEL/NOIRVAEL13.jpeg" },
+  { name: "NOIRVAEL Hoodie Collection", category: "Hoodies", price: "69.99", image: "/NOIRVAEL/NOIRVAEL5.png" },
+  { name: "NOIRVAEL Camiseta Forged in Silence", category: "Camisetas", price: "49.99", image: "/NOIRVAEL/NOIRVAEL7.png" },
+  { name: "NOIRVAEL Gorras & Camisetas", category: "Accesorios", price: "29.99", image: "/NOIRVAEL/NOIRVAEL8.png" },
+  { name: "NOIRVAEL Gorra Signature", category: "Gorras", price: "34.99", image: "/NOIRVAEL/NOIRVAEL9.png" },
+  { name: "NOIRVAEL Stringer Tank", category: "Tanks", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
+  { name: "NOIRVAEL Camiseta Oversized", category: "Camisetas", price: "54.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
+  { name: "NOIRVAEL Shorts Training", category: "Shorts", price: "44.99", image: "/NOIRVAEL/NOIRVAEL17.jpeg" },
+  { name: "NOIRVAEL Thank You Pack", category: "Paquetes", price: "89.99", image: "/NOIRVAEL/NOIRVAEL13.jpeg" },
 ]
 
 export function Clothing() {
