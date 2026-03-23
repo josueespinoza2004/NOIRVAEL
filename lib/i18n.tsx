@@ -238,7 +238,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "footer.legal.terms": "Terms & Conditions",
     "footer.legal.cookies": "Cookie Policy",
     "footer.legal.notice": "Legal Notice",
-    "footer.copyright": "© 2025 NOIRVAEL. All rights reserved.",
+    "footer.copyright": "All rights reserved.",
     "footer.tagline": "Forged in Silence",
 
     // Banner
@@ -463,7 +463,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "footer.legal.terms": "Términos y Condiciones",
     "footer.legal.cookies": "Política de Cookies",
     "footer.legal.notice": "Aviso Legal",
-    "footer.copyright": "© 2025 NOIRVAEL. Todos los derechos reservados.",
+    "footer.copyright": "Todos los derechos reservados.",
     "footer.tagline": "Forged in Silence",
 
     // Banner

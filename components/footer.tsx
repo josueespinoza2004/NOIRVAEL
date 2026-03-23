@@ -54,7 +54,7 @@ export function Footer() {
         </div>
         <div className="border-t border-secondary-foreground/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-secondary-foreground/60 text-sm">{t("footer.copyright")}</p>
+            <p className="text-secondary-foreground/60 text-sm">© {new Date().getFullYear()} NOIRVAEL. {t("footer.copyright")}</p>
             <p className="text-secondary-foreground/60 text-sm">{t("footer.tagline")}</p>
           </div>
         </div>
