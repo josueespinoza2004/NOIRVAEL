@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description:
     "Entrenamiento personalizado, planes nutricionales, suplementos premium y ropa deportiva exclusiva. Tu marca de estilo de vida fitness.",
   generator: "v0.app",
+  icons: {
+    icon: "/NOIRVAEL/NOIRVAEL6.png",
+    apple: "/NOIRVAEL/NOIRVAEL6.png",
+  },
 }
 
 export default function RootLayout({
