@@ -22,7 +22,6 @@ export default function Home() {
       <Supplements />
       <Testimonials />
       <Contact />
-      <BrandBanner image="/NOIRVAEL/NOIRVAEL18.jpeg" align="center" text="TU MEJOR VERSIÓN" subtitle="Comienza hoy con NOIRVAEL" />
       <FitnessTest />
       <Footer />
     </main>
