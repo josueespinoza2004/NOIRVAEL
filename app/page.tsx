@@ -8,7 +8,7 @@ import { Contact } from "@/components/contact"
 import { FitnessTest } from "@/components/fitness-test"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
-import { BrandBanner } from "@/components/brand-banner"
+import { NoirvaelBanner } from "@/components/noirvael-banner"
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Services />
-      <BrandBanner image="/NOIRVAEL/NOIRVAEL14.jpeg" align="left" text="NOIRVAEL" subtitle="Rendimiento sin compromisos" />
+      <NoirvaelBanner />
       <About />
       <Clothing />
       <Supplements />

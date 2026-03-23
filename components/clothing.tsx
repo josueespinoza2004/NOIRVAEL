@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ShoppingCart } from "lucide-react"
+import { useI18n } from "@/lib/i18n"
 
 const products = [
   { name: "NOIRVAEL Camiseta Signature", category: "Camisetas", price: "49.99", image: "/NOIRVAEL/NOIRVAEL5.png" },
@@ -16,26 +17,20 @@ const products = [
 ]
 
 export function Clothing() {
+  const { t } = useI18n()
   return (
     <section id="ropa" className="py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">Colección</span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">Ropa Deportiva NOIRVAEL</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Prendas diseñadas para el máximo rendimiento con la elegancia que define nuestra marca
-          </p>
+          <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">{t("clothing.label")}</span>
+          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">{t("clothing.title")}</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">{t("clothing.description")}</p>
         </div>
-
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {products.map((product, index) => (
             <Card key={index} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden border-0">
               <div className="relative overflow-hidden bg-muted aspect-3/4">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+                <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
               <CardContent className="p-5">
@@ -45,21 +40,16 @@ export function Clothing() {
                   <div className="text-xl font-bold text-primary">${product.price}</div>
                   <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     <ShoppingCart className="w-4 h-4 mr-1" />
-                    Agregar
+                    {t("clothing.add")}
                   </Button>
                 </div>
               </CardContent>
             </Card>
           ))}
         </div>
-
         <div className="text-center">
-          <Button
-            size="lg"
-            variant="outline"
-            className="text-lg px-8 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent tracking-wider"
-          >
-            Ver Toda la Colección
+          <Button size="lg" variant="outline" className="text-lg px-8 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent tracking-wider">
+            {t("clothing.viewAll")}
           </Button>
         </div>
       </div>
