@@ -10,27 +10,34 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <img src="/professional-fitness-coach.png" alt="Coach profesional" className="w-full h-[600px] object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 to-transparent" />
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <img src="/NOIRVAEL/NOIRVAEL11.png" alt="NOIRVAEL Coach" className="w-full h-[600px] object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute bottom-6 left-6">
+                <span className="text-white/90 text-sm font-semibold tracking-[0.3em] uppercase">NOIRVAEL</span>
+              </div>
             </div>
 
             {/* Floating Stats */}
-            <div className="absolute -bottom-8 -right-8 bg-card p-6 rounded-2xl shadow-xl border-2 border-primary/20 animate-float">
+            <div className="absolute -bottom-8 -right-8 bg-card p-6 rounded-2xl shadow-xl border border-primary/20 animate-float">
               <div className="text-4xl font-bold text-primary mb-1">15k+</div>
               <div className="text-sm text-muted-foreground">Horas de Entrenamiento</div>
+            </div>
+
+            {/* Brand decoration */}
+            <div className="absolute -top-4 -left-4 w-24 h-24 rounded-xl overflow-hidden shadow-lg border-2 border-primary/30">
+              <img src="/NOIRVAEL/NOIRVAEL12.png" alt="NOIRVAEL" className="w-full h-full object-cover" />
             </div>
           </div>
 
           {/* Content */}
           <div>
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">Sobre Mí</span>
+            <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">Sobre Nosotros</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">
-              Tu coach dedicado a tu transformación
+              Dedicados a tu transformación
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              Con más de 5 años de experiencia en el mundo del fitness y la nutrición, mi misión es ayudarte a alcanzar
-              tu mejor versión. No solo entreno cuerpos, transformo vidas a través de hábitos saludables y sostenibles.
+              Con más de 5 años de experiencia en el mundo del fitness y la nutrición, NOIRVAEL nació de la pasión por ayudar a las personas a alcanzar su mejor versión. No solo entrenamos cuerpos, transformamos vidas a través de hábitos saludables, estilo y rendimiento.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -60,7 +67,7 @@ export function About() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Pasión por Ayudar</h4>
-                  <p className="text-sm text-muted-foreground">Tu éxito es mi éxito</p>
+                  <p className="text-sm text-muted-foreground">Tu éxito es nuestro éxito</p>
                 </div>
               </div>
 
@@ -75,8 +82,8 @@ export function About() {
               </div>
             </div>
 
-            <Button size="lg" className="text-lg px-8">
-              Conoce Mi Historia
+            <Button size="lg" className="text-lg px-8 tracking-wider">
+              Conoce Nuestra Historia
             </Button>
           </div>
         </div>

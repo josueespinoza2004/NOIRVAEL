@@ -6,33 +6,32 @@ import { ArrowRight, Play } from "lucide-react"
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Image */}
+      {/* Background Image - NOIRVAEL brand image */}
       <div className="absolute inset-0 z-0">
-        <img src="/athletic-person-training-in-modern-gym.jpg" alt="Hero background" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-transparent" />
+        <img src="/NOIRVAEL/NOIRVAEL10.png" alt="NOIRVAEL Hero" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
           <div className="inline-block mb-6 animate-in fade-in slide-in-from-bottom duration-700">
-            <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold border border-primary/30">
-              🔥 Transforma tu vida hoy
+            <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold border border-primary/30 tracking-widest uppercase">
+              Premium Fitness & Lifestyle
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight animate-in fade-in slide-in-from-bottom duration-700 delay-100 text-balance">
-            Tu mejor versión comienza <span className="text-primary">aquí</span>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight animate-in fade-in slide-in-from-bottom duration-700 delay-100 text-balance tracking-tight">
+            Eleva tu estilo, <span className="text-primary">transforma</span> tu vida
           </h1>
 
-          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom duration-700 delay-200 text-pretty">
-            Entrenamiento personalizado, planes nutricionales y suplementos premium. Todo lo que necesitas para alcanzar
-            tus objetivos fitness, online o presencial.
+          <p className="text-xl md:text-2xl text-white/85 mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom duration-700 delay-200 text-pretty">
+            Entrenamiento personalizado, nutrición, suplementos premium y ropa deportiva exclusiva. NOIRVAEL es tu marca de estilo de vida fitness.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom duration-700 delay-300">
-            <Button size="lg" className="text-lg px-8 py-6 group">
-              Comenzar Ahora
+            <Button size="lg" className="text-lg px-8 py-6 group tracking-wider">
+              Explorar Colección
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button

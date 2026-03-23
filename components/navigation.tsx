@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Dumbbell } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -19,6 +19,7 @@ export function Navigation() {
   const navLinks = [
     { href: "#servicios", label: "Servicios" },
     { href: "#sobre-mi", label: "Sobre Mí" },
+    { href: "#ropa", label: "Ropa" },
     { href: "#suplementos", label: "Suplementos" },
     { href: "#testimonios", label: "Testimonios" },
     { href: "#contacto", label: "Contacto" },
@@ -34,11 +35,8 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="bg-primary p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Dumbbell className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-2xl font-bold text-foreground">
-              Nexo<span className="text-primary">Direct</span>
+            <span className="text-2xl font-bold tracking-[0.15em] text-foreground">
+              NOIR<span className="text-primary">VAEL</span>
             </span>
           </a>
 
@@ -48,12 +46,12 @@ export function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-foreground hover:text-primary transition-colors font-medium text-sm uppercase tracking-wider"
               >
                 {link.label}
               </a>
             ))}
-            <Button size="lg" className="animate-pulse-glow">
+            <Button size="lg" className="animate-pulse-glow tracking-wider">
               Comenzar Ahora
             </Button>
           </div>
@@ -72,13 +70,13 @@ export function Navigation() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-foreground hover:text-primary transition-colors font-medium py-2"
+                  className="text-foreground hover:text-primary transition-colors font-medium py-2 text-sm uppercase tracking-wider"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
                 </a>
               ))}
-              <Button size="lg" className="w-full">
+              <Button size="lg" className="w-full tracking-wider">
                 Comenzar Ahora
               </Button>
             </div>

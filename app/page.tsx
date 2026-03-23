@@ -1,6 +1,8 @@
 import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
 import { About } from "@/components/about"
+import { Clothing } from "@/components/clothing"
+import { BrandGallery } from "@/components/brand-gallery"
 import { Testimonials } from "@/components/testimonials"
 import { Supplements } from "@/components/supplements"
 import { Contact } from "@/components/contact"
@@ -15,6 +17,8 @@ export default function Home() {
       <Hero />
       <Services />
       <About />
+      <Clothing />
+      <BrandGallery />
       <Supplements />
       <Testimonials />
       <Contact />

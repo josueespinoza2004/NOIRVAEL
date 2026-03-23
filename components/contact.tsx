@@ -15,8 +15,8 @@ const contactMethods = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@nexodirect.com",
-    link: "mailto:info@nexodirect.com",
+    value: "info@noirvael.com",
+    link: "mailto:info@noirvael.com",
     color: "bg-accent/10 text-accent",
   },
   {
@@ -29,8 +29,8 @@ const contactMethods = [
   {
     icon: Instagram,
     title: "Instagram",
-    value: "@nexodirect",
-    link: "https://instagram.com/nexodirect",
+    value: "@noirvael",
+    link: "https://instagram.com/noirvael",
     color: "bg-accent/10 text-accent",
   },
 ]

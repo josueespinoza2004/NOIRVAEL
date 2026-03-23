@@ -9,7 +9,7 @@ const testimonials = [
     role: "Perdió 15kg en 4 meses",
     image: "/happy-woman-fitness-client.jpg",
     rating: 5,
-    text: "NexoDirect cambió mi vida completamente. No solo perdí peso, gané confianza y energía. El seguimiento personalizado hace toda la diferencia.",
+    text: "NOIRVAEL cambió mi vida completamente. No solo perdí peso, gané confianza y energía. El seguimiento personalizado hace toda la diferencia.",
   },
   {
     name: "Carlos Ramírez",
@@ -37,7 +37,7 @@ const testimonials = [
     role: "Recuperó su salud",
     image: "/healthy-woman-fitness-client.jpg",
     rating: 5,
-    text: "No solo mejoré físicamente, mi salud general cambió. El enfoque holístico de NexoDirect es lo que realmente marca la diferencia.",
+    text: "No solo mejoré físicamente, mi salud general cambió. El enfoque holístico de NOIRVAEL es lo que realmente marca la diferencia.",
   },
   {
     name: "Roberto Díaz",
@@ -56,7 +56,7 @@ export function Testimonials() {
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">Testimonios</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">Historias de éxito reales</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Descubre cómo NexoDirect ha transformado la vida de cientos de personas
+            Descubre cómo NOIRVAEL ha transformado la vida de cientos de personas
           </p>
         </div>
 

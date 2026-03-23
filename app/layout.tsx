@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "NexoDirect - Tu Transformación Fitness Comienza Aquí",
+  title: "NOIRVAEL - Fitness & Lifestyle Premium",
   description:
-    "Entrenamiento personalizado, planes nutricionales y suplementos premium. Servicios fitness online y presenciales con envío a domicilio.",
+    "Entrenamiento personalizado, planes nutricionales, suplementos premium y ropa deportiva exclusiva. Tu marca de estilo de vida fitness.",
   generator: "v0.app",
 }
 
