@@ -11,7 +11,7 @@ export function About() {
           {/* Image */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/professional-fitness-coach.png" alt="NOIRVAEL Coach" className="w-full h-[600px] object-cover" />
+              <img src="/NOIRVAEL/couch.jpg" alt="Erick Ruiz - NOIRVAEL Coach" className="w-full h-[600px] object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6">
                 <span className="text-white/90 text-sm font-semibold tracking-[0.3em] uppercase">NOIRVAEL</span>
@@ -29,10 +29,10 @@ export function About() {
           <div>
             <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">Sobre Nosotros</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">
-              Dedicados a tu transformación
+              Erick Ruiz
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              Con más de 5 años de experiencia en el mundo del fitness y la nutrición, NOIRVAEL nació de la pasión por ayudar a las personas a alcanzar su mejor versión. No solo entrenamos cuerpos, transformamos vidas a través de hábitos saludables, estilo y rendimiento.
+              Con más de 5 años de experiencia en el mundo del fitness y la nutrición, fundé NOIRVAEL con la pasión por ayudar a las personas a alcanzar su mejor versión. No solo entreno cuerpos, transformo vidas a través de hábitos saludables, estilo y rendimiento.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-8">
