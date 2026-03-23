@@ -5,10 +5,6 @@ import { Button } from "@/components/ui/button"
 import { ShoppingCart } from "lucide-react"
 
 const products = [
-  { name: "NOIRVAEL Essential Tee", category: "Camisetas", price: "39.99", image: "/NOIRVAEL/NOIRVAEL1.png" },
-  { name: "NOIRVAEL Performance Tank", category: "Tanks", price: "34.99", image: "/NOIRVAEL/NOIRVAEL2.png" },
-  { name: "NOIRVAEL Training Shorts", category: "Shorts", price: "44.99", image: "/NOIRVAEL/NOIRVAEL3.png" },
-  { name: "NOIRVAEL Flex Joggers", category: "Joggers", price: "59.99", image: "/NOIRVAEL/NOIRVAEL4.png" },
   { name: "NOIRVAEL Sport Hoodie", category: "Hoodies", price: "69.99", image: "/NOIRVAEL/NOIRVAEL5.png" },
   { name: "NOIRVAEL Compression Set", category: "Sets", price: "79.99", image: "/NOIRVAEL/NOIRVAEL6.png" },
   { name: "NOIRVAEL Dry-Fit Polo", category: "Polos", price: "49.99", image: "/NOIRVAEL/NOIRVAEL7.png" },

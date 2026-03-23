@@ -19,7 +19,6 @@ export default function Home() {
       <Services />
       <BrandBanner image="/NOIRVAEL/NOIRVAEL14.jpeg" align="left" text="NOIRVAEL" subtitle="Rendimiento sin compromisos" />
       <About />
-      <BrandBanner image="/NOIRVAEL/NOIRVAEL15.jpeg" align="right" text="COLECCIÓN" subtitle="Ropa deportiva premium" />
       <Clothing />
       <BrandBanner image="/NOIRVAEL/NOIRVAEL16.jpeg" align="center" text="LIFESTYLE" subtitle="Más que una marca, un estilo de vida" />
       <BrandGallery />

@@ -1,6 +1,7 @@
 "use client"
 
 const images = [
+  "/NOIRVAEL/NOIRVAEL15.jpeg",
   "/NOIRVAEL/NOIRVAEL19.jpeg",
   "/NOIRVAEL/NOIRVAEL20.jpeg",
   "/NOIRVAEL/NOIRVAEL21.jpeg",
