@@ -12,6 +12,7 @@ const products = [
   { name: "NOIRVAEL Muscle Fit Tee", category: "Camisetas", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
   { name: "NOIRVAEL Track Jacket", category: "Chaquetas", price: "74.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
   { name: "NOIRVAEL Athletic Wear", category: "Conjuntos", price: "64.99", image: "/NOIRVAEL/NOIRVAEL17.jpeg" },
+  { name: "NOIRVAEL Performance Fit", category: "Camisetas", price: "44.99", image: "/NOIRVAEL/NOIRVAEL13.jpeg" },
 ]
 
 export function Clothing() {
