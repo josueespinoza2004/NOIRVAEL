@@ -6,13 +6,11 @@ import { ShoppingCart } from "lucide-react"
 
 const products = [
   { name: "NOIRVAEL Sport Hoodie", category: "Hoodies", price: "69.99", image: "/NOIRVAEL/NOIRVAEL5.png" },
-  { name: "NOIRVAEL Compression Set", category: "Sets", price: "79.99", image: "/NOIRVAEL/NOIRVAEL6.png" },
   { name: "NOIRVAEL Dry-Fit Polo", category: "Polos", price: "49.99", image: "/NOIRVAEL/NOIRVAEL7.png" },
   { name: "NOIRVAEL Windbreaker", category: "Chaquetas", price: "89.99", image: "/NOIRVAEL/NOIRVAEL8.png" },
   { name: "NOIRVAEL Pro Leggings", category: "Leggings", price: "54.99", image: "/NOIRVAEL/NOIRVAEL9.png" },
   { name: "NOIRVAEL Muscle Fit Tee", category: "Camisetas", price: "42.99", image: "/NOIRVAEL/NOIRVAEL10.png" },
   { name: "NOIRVAEL Track Jacket", category: "Chaquetas", price: "74.99", image: "/NOIRVAEL/NOIRVAEL11.png" },
-  { name: "NOIRVAEL Oversized Hoodie", category: "Hoodies", price: "72.99", image: "/NOIRVAEL/NOIRVAEL12.png" },
 ]
 
 export function Clothing() {
