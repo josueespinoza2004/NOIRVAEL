@@ -2,7 +2,6 @@ import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
 import { About } from "@/components/about"
 import { Clothing } from "@/components/clothing"
-import { BrandGallery } from "@/components/brand-gallery"
 import { Testimonials } from "@/components/testimonials"
 import { Supplements } from "@/components/supplements"
 import { Contact } from "@/components/contact"
@@ -20,8 +19,6 @@ export default function Home() {
       <BrandBanner image="/NOIRVAEL/NOIRVAEL14.jpeg" align="left" text="NOIRVAEL" subtitle="Rendimiento sin compromisos" />
       <About />
       <Clothing />
-      <BrandBanner image="/NOIRVAEL/NOIRVAEL16.jpeg" align="center" text="LIFESTYLE" subtitle="Más que una marca, un estilo de vida" />
-      <BrandGallery />
       <Supplements />
       <BrandBanner image="/NOIRVAEL/NOIRVAEL17.jpeg" align="left" text="RESULTADOS" subtitle="Historias reales de transformación" />
       <Testimonials />
