@@ -30,7 +30,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "nav.cta": "Get Started",
 
     // Hero
-    "hero.badge": "Premium Fitness & Lifestyle",
+    "hero.badge": "Forged in Silence",
     "hero.title1": "Elevate your style, ",
     "hero.titleHighlight": "transform",
     "hero.title2": " your life",
@@ -239,7 +239,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "footer.legal.cookies": "Cookie Policy",
     "footer.legal.notice": "Legal Notice",
     "footer.copyright": "© 2025 NOIRVAEL. All rights reserved.",
-    "footer.tagline": "Premium Fitness & Lifestyle",
+    "footer.tagline": "Forged in Silence",
 
     // Banner
     "banner.noirvael.sub": "Performance without compromise",
@@ -255,7 +255,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "nav.cta": "Comenzar Ahora",
 
     // Hero
-    "hero.badge": "Premium Fitness & Lifestyle",
+    "hero.badge": "Forged in Silence",
     "hero.title1": "Eleva tu estilo, ",
     "hero.titleHighlight": "transforma",
     "hero.title2": " tu vida",
@@ -464,7 +464,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "footer.legal.cookies": "Política de Cookies",
     "footer.legal.notice": "Aviso Legal",
     "footer.copyright": "© 2025 NOIRVAEL. Todos los derechos reservados.",
-    "footer.tagline": "Premium Fitness & Lifestyle",
+    "footer.tagline": "Forged in Silence",
 
     // Banner
     "banner.noirvael.sub": "Rendimiento sin compromisos",

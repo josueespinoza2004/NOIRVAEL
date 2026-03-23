@@ -8,7 +8,7 @@ import { I18nProvider } from "@/lib/i18n"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "NOIRVAEL - Fitness & Lifestyle Premium",
+  title: "NOIRVAEL - Forged in Silence",
   description:
     "Entrenamiento personalizado, planes nutricionales, suplementos premium y ropa deportiva exclusiva. Tu marca de estilo de vida fitness.",
   generator: "v0.app",
