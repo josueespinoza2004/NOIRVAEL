@@ -135,8 +135,8 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Contact
     "contact.label": "Contact",
-    "contact.title": "Start your transformation today",
-    "contact.description": "Choose your preferred method to get in touch. I'm here to help you",
+    "contact.title": "Order your NOIRVAEL gear",
+    "contact.description": "Place your order, ask about sizes and availability, or inquire about our training services",
     "contact.phone": "Phone",
     "contact.email": "Email",
     "contact.whatsapp": "WhatsApp",
@@ -151,16 +151,16 @@ const dict: Record<Locale, Record<string, string>> = {
     "contact.form.phone": "Phone",
     "contact.form.phonePh": "+34 612 345 678",
     "contact.form.message": "Message",
-    "contact.form.messagePh": "Tell me about your goals...",
+    "contact.form.messagePh": "I'm interested in... (sizes, availability, bulk orders, training plans...)",
     "contact.form.send": "Send Message",
     "contact.location.title": "Location",
     "contact.schedule.title": "Schedule",
     "contact.schedule.weekdays": "Monday - Friday: 6:00 - 22:00",
     "contact.schedule.saturday": "Saturdays: 8:00 - 20:00",
     "contact.schedule.sunday": "Sundays: 9:00 - 14:00",
-    "contact.ready.title": "Ready to start?",
-    "contact.ready.description": "Book your first free session and discover how we can help you reach your goals.",
-    "contact.ready.cta": "Book Free Session",
+    "contact.ready.title": "Ready to rep NOIRVAEL?",
+    "contact.ready.description": "Place your order now or book a free training session. We're here for your style and your goals.",
+    "contact.ready.cta": "Place Order",
 
     // Fitness Test
     "test.label": "Fitness Test",
@@ -362,8 +362,8 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Contact
     "contact.label": "Contacto",
-    "contact.title": "Comienza tu transformación hoy",
-    "contact.description": "Elige tu método preferido para ponerte en contacto. Estoy aquí para ayudarte",
+    "contact.title": "Ordena tu ropa NOIRVAEL",
+    "contact.description": "Haz tu pedido, pregunta por tallas y disponibilidad, o consulta sobre nuestros servicios de entrenamiento",
     "contact.phone": "Teléfono",
     "contact.email": "Email",
     "contact.whatsapp": "WhatsApp",
@@ -378,16 +378,16 @@ const dict: Record<Locale, Record<string, string>> = {
     "contact.form.phone": "Teléfono",
     "contact.form.phonePh": "+34 612 345 678",
     "contact.form.message": "Mensaje",
-    "contact.form.messagePh": "Cuéntame sobre tus objetivos...",
+    "contact.form.messagePh": "Me interesa... (tallas, disponibilidad, pedidos, planes de entrenamiento...)",
     "contact.form.send": "Enviar Mensaje",
     "contact.location.title": "Ubicación",
     "contact.schedule.title": "Horario",
     "contact.schedule.weekdays": "Lunes - Viernes: 6:00 - 22:00",
     "contact.schedule.saturday": "Sábados: 8:00 - 20:00",
     "contact.schedule.sunday": "Domingos: 9:00 - 14:00",
-    "contact.ready.title": "¿Listo para empezar?",
-    "contact.ready.description": "Reserva tu primera sesión gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos.",
-    "contact.ready.cta": "Reservar Sesión Gratuita",
+    "contact.ready.title": "¿Listo para vestir NOIRVAEL?",
+    "contact.ready.description": "Haz tu pedido ahora o reserva una sesión de entrenamiento gratuita. Estamos para tu estilo y tus metas.",
+    "contact.ready.cta": "Hacer Pedido",
 
     // Fitness Test
     "test.label": "Test Fitness",
