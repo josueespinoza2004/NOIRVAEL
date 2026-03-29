@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+    <html lang="en" className="scroll-smooth overflow-x-hidden">
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased overflow-x-hidden`}>
         <Suspense fallback={<div>Loading...</div>}>
           <I18nProvider>
             {children}
