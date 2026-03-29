@@ -3,11 +3,13 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Dumbbell, Apple, Package, Video, MapPin, Truck } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
+import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const icons = [Dumbbell, Apple, Package, Video, MapPin, Truck]
 
 export function Services() {
   const { t } = useI18n()
+  const { ref, isVisible } = useScrollReveal(0.1)
 
   const services = icons.map((icon, i) => ({
     icon,
@@ -18,7 +20,7 @@ export function Services() {
 
   return (
     <section id="servicios" className="py-24 bg-muted/30">
-      <div className="container mx-auto px-4">
+      <div ref={ref} className={`container mx-auto px-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
         <div className="text-center mb-16">
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">{t("services.label")}</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">{t("services.title")}</h2>
@@ -26,7 +28,8 @@ export function Services() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 hover:border-primary/50">
+            <div key={index} className={`transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: `${index * 100}ms` }}>
+              <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 hover:border-primary/50 h-full">
               <CardContent className="p-8">
                 <div className="bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                   <service.icon className="w-8 h-8 text-primary group-hover:text-primary-foreground transition-colors" />
@@ -43,6 +46,7 @@ export function Services() {
                 </ul>
               </CardContent>
             </Card>
+            </div>
           ))}
         </div>
       </div>

@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mail, Phone, MessageCircle, Instagram, Facebook, Youtube, MapPin, Clock } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
+import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 export function Contact() {
   const { t } = useI18n()
+  const { ref, isVisible } = useScrollReveal(0.1)
 
   const contactMethods = [
     { icon: Phone, title: t("contact.phone"), value: "+34 612 345 678", link: "tel:+34612345678", color: "bg-primary/10 text-primary" },
@@ -17,7 +19,7 @@ export function Contact() {
 
   return (
     <section id="contacto" className="py-24">
-      <div className="container mx-auto px-4">
+      <div ref={ref} className={`container mx-auto px-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
         <div className="text-center mb-16">
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">{t("contact.label")}</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance">{t("contact.title")}</h2>
