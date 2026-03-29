@@ -17,11 +17,11 @@ export function Navigation() {
   }, [])
 
   const navLinks = [
-    { href: "#servicios", label: t("nav.services") },
-    { href: "#sobre-mi", label: t("nav.about") },
     { href: "#ropa", label: t("nav.clothing") },
     { href: "#suplementos", label: t("nav.supplements") },
+    { href: "#sobre-mi", label: t("nav.about") },
     { href: "#testimonios", label: t("nav.testimonials") },
+    { href: "#servicios", label: t("nav.services") },
     { href: "#contacto", label: t("nav.contact") },
   ]
 

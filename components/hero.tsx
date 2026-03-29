@@ -20,7 +20,7 @@ export function Hero() {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight animate-in fade-in slide-in-from-bottom duration-700 delay-100 text-balance tracking-tight">
-            {t("hero.title1")}<span className="text-primary">{t("hero.titleHighlight")}</span>{t("hero.title2")}
+            {t("hero.welcome")} <span className="text-primary">NOIRVAEL</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/85 mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom duration-700 delay-200 text-pretty">
             {t("hero.description")}
@@ -34,20 +34,6 @@ export function Hero() {
               <Play className="mr-2 w-5 h-5" />
               {t("hero.cta2")}
             </Button>
-          </div>
-          <div className="grid grid-cols-3 gap-8 mt-16 animate-in fade-in slide-in-from-bottom duration-700 delay-500">
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-white/80">{t("hero.stat1")}</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">98%</div>
-              <div className="text-white/80">{t("hero.stat2")}</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
-              <div className="text-white/80">{t("hero.stat3")}</div>
-            </div>
           </div>
         </div>
       </div>

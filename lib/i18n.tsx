@@ -31,15 +31,10 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Hero
     "hero.badge": "Forged in Silence",
-    "hero.title1": "Elevate your style, ",
-    "hero.titleHighlight": "transform",
-    "hero.title2": " your life",
-    "hero.description": "Personalized training, nutrition, premium supplements and exclusive sportswear. NOIRVAEL is your fitness lifestyle brand.",
+    "hero.welcome": "Welcome to",
+    "hero.description": "Premium sportswear, supplements and personalized training. Discover the brand that combines style, performance and elegance.",
     "hero.cta1": "Explore Collection",
     "hero.cta2": "Watch Video",
-    "hero.stat1": "Active Clients",
-    "hero.stat2": "Satisfaction",
-    "hero.stat3": "Years Experience",
 
     // Services
     "services.label": "Our Services",
@@ -90,6 +85,13 @@ const dict: Record<Locale, Record<string, string>> = {
     "about.results.title": "Proven Results",
     "about.results.sub": "500+ transformations",
     "about.cta": "Know Our Story",
+
+    // Video
+    "video.label": "Videos",
+    "video.title": "NOIRVAEL in Motion",
+    "video.description": "Watch our latest campaigns and see the collection come to life",
+    "video.coming": "Coming Soon",
+    "video.comingSub": "New promotional videos dropping soon",
 
     // Clothing
     "clothing.label": "Collection",
@@ -256,15 +258,10 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Hero
     "hero.badge": "Forged in Silence",
-    "hero.title1": "Eleva tu estilo, ",
-    "hero.titleHighlight": "transforma",
-    "hero.title2": " tu vida",
-    "hero.description": "Entrenamiento personalizado, nutrición, suplementos premium y ropa deportiva exclusiva. NOIRVAEL es tu marca de estilo de vida fitness.",
+    "hero.welcome": "Bienvenido a",
+    "hero.description": "Ropa deportiva premium, suplementos y entrenamiento personalizado. Descubre la marca que combina estilo, rendimiento y elegancia.",
     "hero.cta1": "Explorar Colección",
     "hero.cta2": "Ver Video",
-    "hero.stat1": "Clientes Activos",
-    "hero.stat2": "Satisfacción",
-    "hero.stat3": "Años Experiencia",
 
     // Services
     "services.label": "Nuestros Servicios",
@@ -315,6 +312,13 @@ const dict: Record<Locale, Record<string, string>> = {
     "about.results.title": "Resultados Comprobados",
     "about.results.sub": "500+ transformaciones",
     "about.cta": "Conoce Nuestra Historia",
+
+    // Video
+    "video.label": "Videos",
+    "video.title": "NOIRVAEL en Movimiento",
+    "video.description": "Mira nuestras últimas campañas y ve la colección cobrar vida",
+    "video.coming": "Próximamente",
+    "video.comingSub": "Nuevos videos promocionales muy pronto",
 
     // Clothing
     "clothing.label": "Colección",
