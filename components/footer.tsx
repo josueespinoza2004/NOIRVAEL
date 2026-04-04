@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold tracking-[0.15em]">NOIR<span className="text-primary">VÆL</span></span>
+              <span className="text-2xl font-bold tracking-[0.15em]">N<span className="text-primary">Ø</span>IRVAEL</span>
             </div>
             <p className="text-secondary-foreground/80 mb-6 leading-relaxed">{t("footer.description")}</p>
             <div className="flex gap-3">
@@ -54,7 +54,7 @@ export function Footer() {
         </div>
         <div className="border-t border-secondary-foreground/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-secondary-foreground/60 text-sm">© {new Date().getFullYear()} NOIRVÆL. {t("footer.copyright")}</p>
+            <p className="text-secondary-foreground/60 text-sm">© {new Date().getFullYear()} NØIRVAEL. {t("footer.copyright")}</p>
             <p className="text-secondary-foreground/60 text-sm">{t("footer.tagline")}</p>
           </div>
         </div>

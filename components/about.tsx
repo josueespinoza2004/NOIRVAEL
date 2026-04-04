@@ -16,7 +16,7 @@ export function About() {
               <img src="/NOIRVAEL/NOIRVAEL14.jpeg" alt="NOIRVAEL Brand" className="w-full h-[600px] object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6">
-                <span className="text-white text-2xl font-bold tracking-[0.3em] uppercase">NOIRVÆL</span>
+                <span className="text-white text-2xl font-bold tracking-[0.3em] uppercase">NØIRVAEL</span>
                 <p className="text-white/70 text-sm tracking-widest mt-1">Forged in Silence</p>
               </div>
             </div>

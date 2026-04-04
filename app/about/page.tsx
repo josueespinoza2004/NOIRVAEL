@@ -14,8 +14,8 @@ const team = [
     role: { en: "Founder & CEO", es: "Fundador & CEO" },
     image: "/NOIRVAEL/couch.jpg",
     bio: {
-      en: "Fitness coach and entrepreneur with 5+ years of experience. Founded NOIRVÆL to merge his passion for training with premium streetwear.",
-      es: "Coach fitness y emprendedor con más de 5 años de experiencia. Fundó NOIRVÆL para fusionar su pasión por el entrenamiento con ropa streetwear premium.",
+      en: "Fitness coach and entrepreneur with 5+ years of experience. Founded NØIRVAEL to merge his passion for training with premium streetwear.",
+      es: "Coach fitness y emprendedor con más de 5 años de experiencia. Fundó NØIRVAEL para fusionar su pasión por el entrenamiento con ropa streetwear premium.",
     },
   },
   // Add more team members below:

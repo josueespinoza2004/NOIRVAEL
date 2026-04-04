@@ -20,7 +20,7 @@ export function Hero() {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight animate-in fade-in slide-in-from-bottom duration-700 delay-100 text-balance tracking-tight">
-            {t("hero.welcome")} <span className="text-primary">NOIRVÆL</span>
+            {t("hero.welcome")} <span className="text-primary">NØIRVAEL</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/85 mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom duration-700 delay-200 text-pretty">
             {t("hero.description")}

@@ -36,7 +36,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <span className={`text-2xl font-bold tracking-[0.15em] ${logoColor} transition-colors`}>
-              NOIR<span className="text-primary">VÆL</span>
+              N<span className="text-primary">Ø</span>IRVAEL
             </span>
           </Link>
 
