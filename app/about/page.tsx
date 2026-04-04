@@ -57,6 +57,15 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Vision */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <span className="text-primary font-semibold text-sm uppercase tracking-[0.3em]">{t("aboutPage.vision.label")}</span>
+          <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-8">{t("aboutPage.vision.title")}</h2>
+          <p className="text-lg text-muted-foreground leading-relaxed">{t("aboutPage.vision.text")}</p>
+        </div>
+      </section>
+
       {/* Brand images */}
       <section className="pb-20">
         <div className="container mx-auto px-4 max-w-5xl">
