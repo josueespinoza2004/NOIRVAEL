@@ -73,7 +73,7 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // About
     "about.label": "About Us",
-    "about.title": "NOIRVAEL",
+    "about.title": "NOIRVÆL",
     "about.description": "Born from the fusion of style and discipline, NOIRVAEL is more than a brand — it's a movement. We create premium sportswear for those who train hard and live with purpose. Every piece is forged in silence, designed to perform and built to last.",
     "about.floatStat": "Products Sold",
     "about.cert.title": "Premium Quality",
@@ -99,14 +99,14 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Video
     "video.label": "Videos",
-    "video.title": "NOIRVAEL in Motion",
+    "video.title": "NOIRVÆL in Motion",
     "video.description": "Watch our latest campaigns and see the collection come to life",
     "video.coming": "Coming Soon",
     "video.comingSub": "New promotional videos dropping soon",
 
     // Clothing
     "clothing.label": "Collection",
-    "clothing.title": "NOIRVAEL Sportswear",
+    "clothing.title": "NOIRVÆL Sportswear",
     "clothing.description": "Garments designed for peak performance with the elegance that defines our brand",
     "clothing.add": "Add",
     "clothing.viewAll": "View Full Collection",
@@ -311,7 +311,7 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // About
     "about.label": "Sobre Nosotros",
-    "about.title": "NOIRVAEL",
+    "about.title": "NOIRVÆL",
     "about.description": "Nacida de la fusión entre estilo y disciplina, NOIRVAEL es más que una marca — es un movimiento. Creamos ropa deportiva premium para quienes entrenan duro y viven con propósito. Cada pieza es forjada en silencio, diseñada para rendir y construida para durar.",
     "about.floatStat": "Productos Vendidos",
     "about.cert.title": "Calidad Premium",
@@ -337,14 +337,14 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // Video
     "video.label": "Videos",
-    "video.title": "NOIRVAEL en Movimiento",
+    "video.title": "NOIRVÆL en Movimiento",
     "video.description": "Mira nuestras últimas campañas y ve la colección cobrar vida",
     "video.coming": "Próximamente",
     "video.comingSub": "Nuevos videos promocionales muy pronto",
 
     // Clothing
     "clothing.label": "Colección",
-    "clothing.title": "Ropa Deportiva NOIRVAEL",
+    "clothing.title": "Ropa Deportiva NOIRVÆL",
     "clothing.description": "Prendas diseñadas para el máximo rendimiento con la elegancia que define nuestra marca",
     "clothing.add": "Agregar",
     "clothing.viewAll": "Ver Toda la Colección",
