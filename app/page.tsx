@@ -19,10 +19,10 @@ export default function Home() {
       <VideoShowcase />
       <Supplements />
       <About />
-      <Testimonials />
       <Services />
       <FitnessTest />
       <Contact />
+      <Testimonials />
       <Footer />
     </main>
   )
