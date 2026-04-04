@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
+import { Navigation } from "@/components/navigation"
 
 // Add or edit team members here
 const team = [
@@ -13,8 +14,8 @@ const team = [
     role: { en: "Founder & CEO", es: "Fundador & CEO" },
     image: "/NOIRVAEL/couch.jpg",
     bio: {
-      en: "Fitness coach and entrepreneur with 5+ years of experience. Founded NOIRVAEL to merge his passion for training with premium streetwear.",
-      es: "Coach fitness y emprendedor con más de 5 años de experiencia. Fundó NOIRVAEL para fusionar su pasión por el entrenamiento con ropa streetwear premium.",
+      en: "Fitness coach and entrepreneur with 5+ years of experience. Founded NOIRVÆL to merge his passion for training with premium streetwear.",
+      es: "Coach fitness y emprendedor con más de 5 años de experiencia. Fundó NOIRVÆL para fusionar su pasión por el entrenamiento con ropa streetwear premium.",
     },
   },
   // Add more team members below:
@@ -34,6 +35,7 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <Navigation />
       {/* Hero */}
       <section className="relative h-80 md:h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">

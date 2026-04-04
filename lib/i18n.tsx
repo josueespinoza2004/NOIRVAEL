@@ -88,12 +88,12 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // About Page
     "aboutPage.hero": "Our Story",
-    "aboutPage.heroSub": "The journey behind NOIRVAEL — from vision to movement",
+    "aboutPage.heroSub": "The journey behind NOIRVÆL — from vision to movement",
     "aboutPage.mission.label": "Our Mission",
     "aboutPage.mission.title": "Forged in Silence",
-    "aboutPage.mission.text": "NOIRVAEL was born from the belief that greatness is built in silence — in the early mornings, the late nights, the reps no one sees. We create sportswear that honors that grind, combining premium materials with designs that move from the gym to the street seamlessly.",
+    "aboutPage.mission.text": "NOIRVÆL was born from the belief that greatness is built in silence — in the early mornings, the late nights, the reps no one sees. We create sportswear that honors that grind, combining premium materials with designs that move from the gym to the street seamlessly.",
     "aboutPage.team.label": "The Team",
-    "aboutPage.team.title": "The people behind NOIRVAEL",
+    "aboutPage.team.title": "The people behind NOIRVÆL",
     "aboutPage.team.role": "Role",
     "aboutPage.back": "Back to Home",
 
@@ -326,12 +326,12 @@ const dict: Record<Locale, Record<string, string>> = {
 
     // About Page
     "aboutPage.hero": "Nuestra Historia",
-    "aboutPage.heroSub": "El camino detrás de NOIRVAEL — de la visión al movimiento",
+    "aboutPage.heroSub": "El camino detrás de NOIRVÆL — de la visión al movimiento",
     "aboutPage.mission.label": "Nuestra Misión",
     "aboutPage.mission.title": "Forged in Silence",
-    "aboutPage.mission.text": "NOIRVAEL nació de la creencia de que la grandeza se construye en silencio — en las madrugadas, las noches largas, las repeticiones que nadie ve. Creamos ropa deportiva que honra ese esfuerzo, combinando materiales premium con diseños que van del gym a la calle sin esfuerzo.",
+    "aboutPage.mission.text": "NOIRVÆL nació de la creencia de que la grandeza se construye en silencio — en las madrugadas, las noches largas, las repeticiones que nadie ve. Creamos ropa deportiva que honra ese esfuerzo, combinando materiales premium con diseños que van del gym a la calle sin esfuerzo.",
     "aboutPage.team.label": "El Equipo",
-    "aboutPage.team.title": "Las personas detrás de NOIRVAEL",
+    "aboutPage.team.title": "Las personas detrás de NOIRVÆL",
     "aboutPage.team.role": "Rol",
     "aboutPage.back": "Volver al Inicio",
 
