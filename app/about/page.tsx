@@ -93,18 +93,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Back */}
-      <section className="py-12">
-        <div className="container mx-auto px-4 text-center">
-          <Link href="/">
-            <Button variant="outline" size="lg" className="tracking-wider">
-              <ArrowLeft className="w-5 h-5 mr-2" />
-              {t("aboutPage.back")}
-            </Button>
-          </Link>
-        </div>
-      </section>
     </main>
   )
 }

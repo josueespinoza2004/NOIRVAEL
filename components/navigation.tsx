@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Globe } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
@@ -33,11 +34,11 @@ export function Navigation() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${showBg ? "bg-background shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-2 group">
             <span className={`text-2xl font-bold tracking-[0.15em] ${logoColor} transition-colors`}>
               NOIR<span className="text-primary">VÆL</span>
             </span>
-          </a>
+          </Link>
 
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
